@@ -25,5 +25,5 @@ else if(empresa==4){
     document.write(`La llamada que realizo duro un tiempo de ${tiempo} minutos a un numero ENTEL su costo es : S/.${$entel}.00\n`);
 }
 else{
-    alert("Coloco una opcion incorrecta")
+    alert("Colocó una opcion incorrecta")
 }
