@@ -13,16 +13,16 @@ let $mov=parseInt(tiempo*mov);
 let $entel=parseInt(tiempo*entel);
 
 if(empresa==1){
-    document.write(`La llamada que realizo es a un numero FIJO su costo es : S/.${$fijo}.00\n`);
+    document.write(`La llamada que realizo duro un tiempo de ${tiempo} minutos a un numero FIJO su costo es : S/.${$fijo}.00\n`);
 }
 else if(empresa==2){
-    document.write(`La llamada que realizo es a un numero CLARO su costo es : S/.${$claro}.00\n`);
+    document.write(`La llamada que realizo duro un tiempo de ${tiempo} minutos a un numero CLARO su costo es : S/.${$claro}.00\n`);
 }
 else if(empresa==3){
-    document.write(`La llamada que realizo es a un numero MOVISTAR su costo es : S/.${$mov}.00\n`);
+    document.write(`La llamada que realizo duro un tiempo de ${tiempo} minutos a un numero MOVISTAR su costo es : S/.${$mov}.00\n`);
 }
 else if(empresa==4){
-    document.write(`La llamada que realizo es a un numero ENTEL su costo es : S/.${$entel}.00\n`);
+    document.write(`La llamada que realizo duro un tiempo de ${tiempo} minutos a un numero ENTEL su costo es : S/.${$entel}.00\n`);
 }
 else{
     alert("Coloco una opcion incorrecta")
